@@ -69,34 +69,3 @@ export const Footer = () => {
  * Answer: No, the code in this component follows a standard pattern for structuring and organizing the footer section of a website. It imports and utilizes separate components for the logo, navigation links, and social media links, promoting code modularity and reusability.
  *
  */
-
-/**
- * =====================================================================
- *   COMPONENT  REVISION  (Attach to bottom of the component code block)
- * =====================================================================
- * Date Revised : 2024-04-04          (last date you made a code change)
- * Dev Initials : Aniket Raj
- * ------------------------------
- * Question: Why was it necessary to revise this component?
- * Answer  : Added a post category to the post data.
- *
- * ------------------------------
- * Describe Your Change(s):
- * Added code to accept user input of a category value.
- *
- * ------------------------------
- * Section Comments:    (Enter "none" if you have no comments)
- * none
- * ------------------------------
- * Input Comments:      (Enter "none" if you have no comments)
- * none
- * ------------------------------
- * Output Comments:     (Enter "none" if you have no comments)
- * Category value is added to the database along with the title
- * and body values.
- * ------------------------------
- * Additional Comments:
- * Question: Did you have to write any unusual code?
- * Answer  : NO
- *
- */

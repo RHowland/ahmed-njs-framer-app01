@@ -52,36 +52,3 @@ export const Cta = () => {
  * Answer: No, the code in this component follows a standard pattern for creating a call-to-action section. It utilizes the Next.js Link component for navigation and a custom Button component for the interactive button element. The use of Tailwind CSS classes for styling is a common practice in modern web development.
  *
  */
-
-/**
- * =====================================================================
- * COMPONENT REVISION (Attach to bottom of the component code block)
- * =====================================================================
- * Date Revised : 2024-04-04 (last date you made a code change)
- * Dev Initials : Aniket Raj
- * ------------------------------
- * Question: Why was it necessary to revise this component?
- * Answer: No revisions were made to this component.
- *
- * ------------------------------
- * Describe Your Change(s):
- * No changes were made to this component.
- *
- * ------------------------------
- * Section Comments: (Enter "none" if you have no comments)
- * none
- *
- * ------------------------------
- * Input Comments: (Enter "none" if you have no comments)
- * none
- *
- * ------------------------------
- * Output Comments: (Enter "none" if you have no comments)
- * none
- *
- * ------------------------------
- * Additional Comments:
- * Question: Did you have to write any unusual code?
- * Answer: No
- *
- */

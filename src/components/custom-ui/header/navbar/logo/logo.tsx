@@ -44,34 +44,3 @@ export const NavbarLogo = () => {
  * Answer: No, the code in this component is straightforward and follows a common pattern for creating a logo component in a navigation bar. It utilizes the Next.js Link component for navigation and applies Tailwind CSS classes for styling. The logo text can be easily replaced with the actual logo or an image if desired.
  *
  */
-
-/**
- * =====================================================================
- *   COMPONENT  REVISION  (Attach to bottom of the component code block)
- * =====================================================================
- * Date Revised : 2024-04-04          (last date you made a code change)
- * Dev Initials : Aniket Raj
- * ------------------------------
- * Question: Why was it necessary to revise this component?
- * Answer  : Added a post category to the post data.
- *
- * ------------------------------
- * Describe Your Change(s):
- * Added code to accept user input of a category value.
- *
- * ------------------------------
- * Section Comments:    (Enter "none" if you have no comments)
- * none
- * ------------------------------
- * Input Comments:      (Enter "none" if you have no comments)
- * none
- * ------------------------------
- * Output Comments:     (Enter "none" if you have no comments)
- * Category value is added to the database along with the title
- * and body values.
- * ------------------------------
- * Additional Comments:
- * Question: Did you have to write any unusual code?
- * Answer  : NO
- *
- */
