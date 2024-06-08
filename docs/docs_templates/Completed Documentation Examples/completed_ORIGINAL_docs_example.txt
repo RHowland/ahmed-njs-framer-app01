@@ -51,7 +51,7 @@ const InsertPostData = () => {
 export default CreatePost;
 /**
 * =====================================================================
-*   ORIGINAL DOCUMENTATION  (Append to end of component code block)
+*   ORIGINAL DOCUMENTATION    (Append to end of component code block)
 * =====================================================================
 * File Name      : InsertPostData.tsx
 * Component Name : InsertPostData
@@ -68,7 +68,7 @@ export default CreatePost;
 * data into the jsonplaceholder development "database".  
 * 
 * ------------------------------
-* Section Comments:   (Enter "none" if you have no comments)
+* Footnote Comments:   (Enter "none" if you have no comments)
 * Footnote 1
 * The useMutation hook will create a new post.  
 * It takes a function that calls axios.post to submit the 

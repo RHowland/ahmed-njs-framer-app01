@@ -29,10 +29,10 @@ Please notice these details:
    Describe the change(s) you made to this component.
 
 4. (on line 116)
-   Enter the "Section nn" code followed by a detailed 
-   description of that section 
+   Enter the "Footnote nn" code followed by a detailed 
+   description of that Footnote 
    -- or -- 
-   If there are no "Section..." codes, 
+   If there are no "Footnote..." codes, 
    Enter "none"
 
 5. (on line 119)

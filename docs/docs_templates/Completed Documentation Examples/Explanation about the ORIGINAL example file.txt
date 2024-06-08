@@ -21,7 +21,7 @@ Please notice these details:
    Enter the name of this component.
 
 2. (on lines # 11 and 16)
-   Enter short "Section nn" markers to mark locations 
+   Enter short "Footnote nn" markers to mark locations 
    that need a comment.  
    These markers are similar to footnote number 
    in text documents. 
@@ -43,12 +43,12 @@ Please notice these details:
      What does this component do?
 
 6. (on line # 72)
-   Notice the "Section 1" name, followed by some comments.  
+   Notice the "Footnote 1" name, followed by some comments.  
    This comment refers to code at line 11 in the body 
    of the component. 
 
 7. (on line # 78)
-   Notice the "Section 2" name, followed by some comments. 
+   Notice the "Footnote 2" name, followed by some comments. 
    This comment refers to code at line 16 in the body 
    of the component. 
 

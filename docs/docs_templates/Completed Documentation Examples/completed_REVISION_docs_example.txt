@@ -8,12 +8,12 @@ const InsertPostData = () => {
   const [body, setBody] = useState("");
   const [category, setCategory] = useState("");
 
-  // Section 1
+  // Footnote 1
   const mutation = useMutation((newPost) =>
     axios.post("https://jsonplaceholder.typicode.com/posts", newPost),
   );
 
-  // Section 2
+  // Footnote 2
   const submitData = () => {
     mutation.mutate({ title, body, category });
   };
@@ -75,14 +75,14 @@ export default CreatePost;
 * data into the jsonplaceholder development "database".  
 * 
 * ------------------------------
-* Section Comments:   (Enter "none" if you have no Section comments)
-* Section 1
+* Footnote Comments:   (Enter "none" if you have no Footnote comments)
+* Footnote 1
 * The useMutation hook will create a new post.  
 * It takes a function that calls axios.post to submit the 
 * newPost to the specified URL. This mutation is used to 
 * manage post submission state. 
 *
-* Section 2
+* Footnote 2
 * This function handles the data submission of the 
 * title and body values.
 *
@@ -113,7 +113,7 @@ export default CreatePost;
 * Added code to handle user input of a category value.
 * 
 * ------------------------------
-* Section Comments:    (Enter "none" if you have no comments)
+* Footnote Comments:    (Enter "none" if you have no comments)
 * none
 * ------------------------------
 * Input Comments:      (Enter "none" if you have no comments)

@@ -13,7 +13,7 @@
 * 
 * 
 * ------------------------------
-* Section Comments:   (Enter "none" if you have no Section comments)
+* Footnote Comments:   (Enter "none" if you have no Footnote comments)
 * 
 * ------------------------------
 * Input Comments:     (Enter "none" if you have no Input comments)

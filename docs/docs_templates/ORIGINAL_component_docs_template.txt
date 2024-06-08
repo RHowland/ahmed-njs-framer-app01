@@ -22,7 +22,7 @@
 * Answer  :   
 * 
 * ------------------------------
-* Section Comments:   (Enter "none" if you have no comments)
+* Footnote Comments:   (Enter "none" if you have no comments)
 * 
 * ------------------------------
 * Input Comments:     (Enter "none" if you have no comments)
