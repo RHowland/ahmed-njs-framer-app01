@@ -17,10 +17,10 @@ import {
 
 const components: { title: string; href: string; description: string }[] = [
   {
-    title: "Alert Dialog",
-    href: "/docs/primitives/alert-dialog",
+    title: "GradientBackground",
+    href: "/components/bg-gradient",
     description:
-      "A modal dialog that interrupts the user with important content and expects a response.",
+      "New component added!",
   },
   {
     title: "Hover Card",
