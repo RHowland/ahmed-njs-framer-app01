@@ -10,10 +10,11 @@ export const Hero = () => {
       <GradientBackground
         startingColorLeft="#abb8c3"
         endingColorRight="#000"
-        motionSpeed="5s"
+        motionSpeed="2s"
         motionDirection="leftToRight"
         componentMaxWidth="100%"
         componentMaxHeight="100%"
+        triggerAnimation={true}
       >
         <div className="container mx-auto px-4 py-16 md:py-24">
           {/* Section 2: Hero content and media */}
