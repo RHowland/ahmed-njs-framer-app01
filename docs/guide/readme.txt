@@ -8,6 +8,8 @@ The `GradientBackground` component creates a full-width, full-height animated gr
 
 ## Installation
 
+The component does not need installation. Simply copy the component code, create a new file in your codebase, and paste the code there. Then, import and use the component as needed.
+
 You can import the `GradientBackground` component from `'@/components/framer-motion/GradientBackground'`:
 
 ```bash
