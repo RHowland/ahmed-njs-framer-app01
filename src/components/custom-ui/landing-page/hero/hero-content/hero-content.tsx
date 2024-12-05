@@ -5,11 +5,11 @@ export const HeroContent = () => {
     <>
       <div>
         {/* Section 1: Hero heading */}
-        <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-left">
+        <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold mb-4 text-left text-slate-50">
           Discover the Power of Our Services
         </h1>
         {/* Section 2: Hero description */}
-        <p className="text-md lg:text-lg md:text-lg text-gray-600 mb-8 text-left">
+        <p className="text-md lg:text-lg md:text-lg text-gray-300 mb-8 text-left">
           Transform your business with our innovative solutions.
         </p>
         {/* Section 3: Hero buttons */}

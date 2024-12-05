@@ -1,3 +1,4 @@
+import GradientBackground from "@/components/framer-motion/GradientBackground";
 import { HeroContent } from "./hero-content/hero-content";
 import { HeroMedia } from "./hero-media/hero-media";
 
@@ -6,6 +7,15 @@ export const Hero = () => {
     <>
       {/* Section 1: Hero section */}
       <section className="bg-white">
+      <GradientBackground
+        startingColorLeft="#abb8c3"
+        endingColorRight="#000"
+        motionSpeed="2s"
+        motionDirection="leftToRight"
+        componentMaxWidth="100%"
+        componentMaxHeight="100%"
+        triggerAnimation={true}
+      >
         <div className="container mx-auto px-4 py-16 md:py-24">
           {/* Section 2: Hero content and media */}
           <div className="flex flex-col md:flex-row">
@@ -19,6 +29,7 @@ export const Hero = () => {
             </div>
           </div>
         </div>
+        </GradientBackground>
       </section>
     </>
   );
@@ -92,3 +103,36 @@ export const Hero = () => {
  * and media, promoting code modularity and reusability.
  *
  */
+
+
+/**
+* =====================================================================
+*   REVISION DOCUMENTATION  (Append AFTER PREVIOUS documentation block(s) )
+* =====================================================================
+* Date Revised : 2024-06-09             (last date you made a code change)
+* Dev Name     : Arshahdul Ahmed
+* ------------------------------
+* Question: Why was it necessary to revise this component?
+* Answer  : The component needed to be revised to ensure it could seamlessly integrate into the hero section, supporting full-width and full-height layout while wrapping around its children. Additionally, the revision aimed to enhance its flexibility and reusability across different parts of the application.
+*
+* ------------------------------
+* Describe Your Change(s): 
+* The component was updated to:
+  - Accept children and wrap around them.
+  - Add props to spinning gradient animation component to provide a dynamic visual effect.
+* 
+* ------------------------------
+* Footnote Comments: none
+* 
+* ------------------------------
+* Input Comments: none
+* 
+* ------------------------------
+* Output Comments: none
+* 
+* ------------------------------
+* Additional Comments:
+* Question: Did you have to write any unusual code? 
+* Answer  : No unusual code was required. The changes mainly involved using standard React and TypeScript practices, ensuring compatibility with TailwindCSS and Framer Motion.
+*
+*/

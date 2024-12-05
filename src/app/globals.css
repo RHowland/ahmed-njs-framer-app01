@@ -74,3 +74,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+@keyframes gradientAnimation {
+  0% { background-position: var(--start); }
+  50% { background-position: var(--end); }
+  100% { background-position: var(--start); }
+}
